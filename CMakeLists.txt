@@ -10,7 +10,7 @@ if(UNIX AND NOT APPLE)
 endif()
 
 # Must be set before invoking project()
-set(CMAKE_OSX_ARCHITECTURES x86_64)
+set(CMAKE_OSX_ARCHITECTURES arm64 x86_64)
 set(CMAKE_OSX_DEPLOYMENT_TARGET 10.13)
 
 # Build files in the top directory
